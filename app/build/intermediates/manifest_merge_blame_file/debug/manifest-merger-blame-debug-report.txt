@@ -1,0 +1,61 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.sinovoice.example.asrrecorderENGandCH"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="1"
+8-->E:\Projectplace\813\ASR_8.1.5.39686.rc1_android\hcicloudsdk-asr-android-8.1.5.39686.rc1\ASR_Recorder_Example\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="26" />
+9-->E:\Projectplace\813\ASR_8.1.5.39686.rc1_android\hcicloudsdk-asr-android-8.1.5.39686.rc1\ASR_Recorder_Example\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->E:\Projectplace\813\ASR_8.1.5.39686.rc1_android\hcicloudsdk-asr-android-8.1.5.39686.rc1\ASR_Recorder_Example\app\src\main\AndroidManifest.xml:8:5-66
+11-->E:\Projectplace\813\ASR_8.1.5.39686.rc1_android\hcicloudsdk-asr-android-8.1.5.39686.rc1\ASR_Recorder_Example\app\src\main\AndroidManifest.xml:8:22-64
+12    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+12-->E:\Projectplace\813\ASR_8.1.5.39686.rc1_android\hcicloudsdk-asr-android-8.1.5.39686.rc1\ASR_Recorder_Example\app\src\main\AndroidManifest.xml:9:5-70
+12-->E:\Projectplace\813\ASR_8.1.5.39686.rc1_android\hcicloudsdk-asr-android-8.1.5.39686.rc1\ASR_Recorder_Example\app\src\main\AndroidManifest.xml:9:22-68
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+13-->E:\Projectplace\813\ASR_8.1.5.39686.rc1_android\hcicloudsdk-asr-android-8.1.5.39686.rc1\ASR_Recorder_Example\app\src\main\AndroidManifest.xml:10:5-80
+13-->E:\Projectplace\813\ASR_8.1.5.39686.rc1_android\hcicloudsdk-asr-android-8.1.5.39686.rc1\ASR_Recorder_Example\app\src\main\AndroidManifest.xml:10:22-78
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->E:\Projectplace\813\ASR_8.1.5.39686.rc1_android\hcicloudsdk-asr-android-8.1.5.39686.rc1\ASR_Recorder_Example\app\src\main\AndroidManifest.xml:11:5-78
+14-->E:\Projectplace\813\ASR_8.1.5.39686.rc1_android\hcicloudsdk-asr-android-8.1.5.39686.rc1\ASR_Recorder_Example\app\src\main\AndroidManifest.xml:11:22-76
+15
+16    <application
+16-->E:\Projectplace\813\ASR_8.1.5.39686.rc1_android\hcicloudsdk-asr-android-8.1.5.39686.rc1\ASR_Recorder_Example\app\src\main\AndroidManifest.xml:13:5-28:19
+17        android:allowBackup="true"
+17-->E:\Projectplace\813\ASR_8.1.5.39686.rc1_android\hcicloudsdk-asr-android-8.1.5.39686.rc1\ASR_Recorder_Example\app\src\main\AndroidManifest.xml:14:9-35
+18        android:debuggable="true"
+19        android:icon="@drawable/ic_launcher"
+19-->E:\Projectplace\813\ASR_8.1.5.39686.rc1_android\hcicloudsdk-asr-android-8.1.5.39686.rc1\ASR_Recorder_Example\app\src\main\AndroidManifest.xml:15:9-45
+20        android:label="@string/app_name"
+20-->E:\Projectplace\813\ASR_8.1.5.39686.rc1_android\hcicloudsdk-asr-android-8.1.5.39686.rc1\ASR_Recorder_Example\app\src\main\AndroidManifest.xml:16:9-41
+21        android:testOnly="true"
+22        android:theme="@style/AppTheme" >
+22-->E:\Projectplace\813\ASR_8.1.5.39686.rc1_android\hcicloudsdk-asr-android-8.1.5.39686.rc1\ASR_Recorder_Example\app\src\main\AndroidManifest.xml:17:9-40
+23        <activity
+23-->E:\Projectplace\813\ASR_8.1.5.39686.rc1_android\hcicloudsdk-asr-android-8.1.5.39686.rc1\ASR_Recorder_Example\app\src\main\AndroidManifest.xml:18:9-26:20
+24            android:name="com.sinovoice.example.asrrecorder.MainActivity"
+24-->E:\Projectplace\813\ASR_8.1.5.39686.rc1_android\hcicloudsdk-asr-android-8.1.5.39686.rc1\ASR_Recorder_Example\app\src\main\AndroidManifest.xml:19:13-41
+25            android:label="@string/app_name" >
+25-->E:\Projectplace\813\ASR_8.1.5.39686.rc1_android\hcicloudsdk-asr-android-8.1.5.39686.rc1\ASR_Recorder_Example\app\src\main\AndroidManifest.xml:20:13-45
+26            <intent-filter>
+26-->E:\Projectplace\813\ASR_8.1.5.39686.rc1_android\hcicloudsdk-asr-android-8.1.5.39686.rc1\ASR_Recorder_Example\app\src\main\AndroidManifest.xml:21:13-25:29
+27                <action android:name="android.intent.action.MAIN" />
+27-->E:\Projectplace\813\ASR_8.1.5.39686.rc1_android\hcicloudsdk-asr-android-8.1.5.39686.rc1\ASR_Recorder_Example\app\src\main\AndroidManifest.xml:22:17-69
+27-->E:\Projectplace\813\ASR_8.1.5.39686.rc1_android\hcicloudsdk-asr-android-8.1.5.39686.rc1\ASR_Recorder_Example\app\src\main\AndroidManifest.xml:22:25-66
+28
+29                <category android:name="android.intent.category.LAUNCHER" />
+29-->E:\Projectplace\813\ASR_8.1.5.39686.rc1_android\hcicloudsdk-asr-android-8.1.5.39686.rc1\ASR_Recorder_Example\app\src\main\AndroidManifest.xml:24:17-77
+29-->E:\Projectplace\813\ASR_8.1.5.39686.rc1_android\hcicloudsdk-asr-android-8.1.5.39686.rc1\ASR_Recorder_Example\app\src\main\AndroidManifest.xml:24:27-74
+30            </intent-filter>
+31        </activity>
+32
+33        <receiver android:name="com.sinovoice.hcicloudsdk.common.NetWorkChangeReceiver" />
+33-->E:\Projectplace\813\ASR_8.1.5.39686.rc1_android\hcicloudsdk-asr-android-8.1.5.39686.rc1\ASR_Recorder_Example\app\src\main\AndroidManifest.xml:27:9-91
+33-->E:\Projectplace\813\ASR_8.1.5.39686.rc1_android\hcicloudsdk-asr-android-8.1.5.39686.rc1\ASR_Recorder_Example\app\src\main\AndroidManifest.xml:27:19-88
+34    </application>
+35
+36</manifest>

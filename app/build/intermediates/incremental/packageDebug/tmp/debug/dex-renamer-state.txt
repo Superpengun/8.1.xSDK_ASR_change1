@@ -1,0 +1,4 @@
+#Wed Sep 16 17:23:43 CST 2020
+base.0=E\:\\Projectplace\\813\\ASR_8.1.5.39686.rc1_android\\hcicloudsdk-asr-android-8.1.5.39686.rc1\\ASR_Recorder_Example\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

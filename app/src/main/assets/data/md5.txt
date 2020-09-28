@@ -1,0 +1,5 @@
+MD5 (grm_decoder.conf) = a912a2162e40a6d832088ad91f8431ad
+MD5 (ispk_aux.dat) = a3a2ad491a388c17966be2a3ba2b0139
+MD5 (ispk_dnn.dat) = 6a6d778402e2cb3a64b497610cd0a939
+MD5 (ispk_g2p.dat) = 9ac8a29c43ee22319fc4341b834ab8a5
+MD5 (ispk_g2p.mix.dat) = 075df753d4d18befeedf93e417fc6536

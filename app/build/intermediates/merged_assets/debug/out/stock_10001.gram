@@ -1,0 +1,22 @@
+﻿#JSGF V1.0;
+
+grammar stock_1001;
+
+public <stock_1001> =     模拟解调 |
+                          扫频分析 |
+                          IQ分析 |
+                          相位噪声 |
+                          脉冲信号分析 |
+                          中心频率([<math>][<unit>])*[点](<math>)*[K| 兆| 计]赫兹 | 
+        起始频率([<math>][<unit>])*[点](<math>)*[K| 兆| 计]赫兹 | 
+        CENTER FREQUENCY |
+        good|
+        BETTER|
+        OPEN|
+        stop|
+        终止频率([<math>][<unit>])*[点](<math>)*[K| 兆| 计]赫兹 | 
+        测量时间;
+
+<math> =  一| 二| 三| 四| 五| 六| 七| 八| 九| 零;
+<unit> =  十| 百| 千| 万;
+#测量时间640ns~640ms；
